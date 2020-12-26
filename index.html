@@ -5,28 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wikipedia</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+   
 </head>
 <body>
-    <header>
-
-    </header>
-    <main>
-        <div class="main">
+    <div class="container">
+        <section class="searchContainer">
             <div class="box">
-                <h1>Wikipedia Search</h1>
+                <h1>5G Wikipedia Search</h1>
                 <input type="text" id="searchBox" value="" />
-                <button type="button" onclick="apiCall()">Button</button>
+                <button type="button" >GO</button>
             </div>
-        </div>
-        <div>
-            <ul id="result">
-                
-            </ul>
-        </div>
-    </main>
-    <footer>
+        </section>
 
-    </footer>
+        <section class="resultContainer">
+            <ul id="result"> </ul>
+        </section>
+    </div>
+ <script src="script.js"></script>
 </body>
 </html>
